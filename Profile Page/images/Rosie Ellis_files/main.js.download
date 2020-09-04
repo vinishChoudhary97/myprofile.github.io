@@ -1,0 +1,6 @@
+$(document).ready(function () {
+   $(".toggleMenu").on("click",function(){
+   $(this).toggleClass("open");
+   $(".navbar").toggleClass("open");
+});
+});
